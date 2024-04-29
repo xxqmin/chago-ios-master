@@ -1,0 +1,911 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53261A3327AA109600FB966B /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53261A3227AA109600FB966B /* AppTrackingTransparency.framework */; };
+		5338C6652636653F004847E4 /* GoogleAppMeasurement.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53072CB325E7CD9D00EFDA7D /* GoogleAppMeasurement.xcframework */; };
+		5338C66A26366544004847E4 /* FirebaseAnalytics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 533216E625E7C67900EF910E /* FirebaseAnalytics.xcframework */; };
+		7B099BA3F9C93768D131B8DD /* Pods_CHAGOTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33E0E190183C8073D8505435 /* Pods_CHAGOTests.framework */; };
+		7B6019922BDFE69000C904D9 /* Void.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6019912BDFE69000C904D9 /* Void.swift */; };
+		7B7B92512BDFEBD100974FA2 /* AdBrixRmKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B7B92502BDFEBD100974FA2 /* AdBrixRmKit.xcframework */; };
+		7B7B925E2BDFEF9D00974FA2 /* FirebaseAnalytics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 533216E625E7C67900EF910E /* FirebaseAnalytics.xcframework */; };
+		7B7B92622BDFF06D00974FA2 /* Pods_CHAGO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79F111FD2C060C173DC711C7 /* Pods_CHAGO.framework */; };
+		7B7B92632BDFF06D00974FA2 /* Pods_CHAGO.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 79F111FD2C060C173DC711C7 /* Pods_CHAGO.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7B7B92672BDFF12600974FA2 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B7B92542BDFEBD600974FA2 /* FirebaseCore.framework */; };
+		8FCDE9FC244AB0B6008D8A15 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C275D21924383827001E79BB /* iAd.framework */; };
+		91CC7A4223CF499400017CAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91CC7A4123CF499400017CAC /* AppDelegate.m */; };
+		91CC7A4523CF499400017CAC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91CC7A4423CF499400017CAC /* SceneDelegate.m */; };
+		91CC7A4823CF499400017CAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91CC7A4723CF499400017CAC /* ViewController.m */; };
+		91CC7A4B23CF499400017CAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91CC7A4923CF499400017CAC /* Main.storyboard */; };
+		91CC7A4D23CF499700017CAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91CC7A4C23CF499700017CAC /* Assets.xcassets */; };
+		91CC7A5023CF499700017CAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91CC7A4E23CF499700017CAC /* LaunchScreen.storyboard */; };
+		91CC7A5323CF499700017CAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91CC7A5223CF499700017CAC /* main.m */; };
+		91CC7A5D23CF499700017CAC /* CHAGOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91CC7A5C23CF499700017CAC /* CHAGOTests.m */; };
+		91CC7A6823CF499700017CAC /* CHAGOUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91CC7A6723CF499700017CAC /* CHAGOUITests.m */; };
+		91CC7A7623CF4A2A00017CAC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91CC7A7523CF4A2A00017CAC /* GoogleService-Info.plist */; };
+		91CC7A7E23CF4B6D00017CAC /* UIView+frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 91CC7A7923CF4B6D00017CAC /* UIView+frame.m */; };
+		91CC7A7F23CF4B6D00017CAC /* SharedData.m in Sources */ = {isa = PBXBuildFile; fileRef = 91CC7A7D23CF4B6D00017CAC /* SharedData.m */; };
+		91CC7A8123CF4BE000017CAC /* KakaoOpenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91CC7A8023CF4BDF00017CAC /* KakaoOpenSDK.framework */; };
+		C275D22024384490001E79BB /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = C275D21F24384490001E79BB /* Constants.m */; };
+		C275D22324384FE4001E79BB /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = C275D22224384FE4001E79BB /* Utils.m */; };
+		E3763B845A4968A0FB628A0D /* Pods_CHAGO_CHAGOUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72744CEACBF5E23FB49BE3AD /* Pods_CHAGO_CHAGOUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91CC7A5923CF499700017CAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91CC7A3523CF499400017CAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91CC7A3C23CF499400017CAC;
+			remoteInfo = CHAGO;
+		};
+		91CC7A6423CF499700017CAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91CC7A3523CF499400017CAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91CC7A3C23CF499400017CAC;
+			remoteInfo = CHAGO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7B7B92642BDFF06D00974FA2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7B7B92632BDFF06D00974FA2 /* Pods_CHAGO.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		33E0E190183C8073D8505435 /* Pods_CHAGOTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHAGOTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37FDBBE149A9D10DB63E8E46 /* Pods-CHAGOTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHAGOTests.debug.xcconfig"; path = "Target Support Files/Pods-CHAGOTests/Pods-CHAGOTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4BE631E418F90C5F17AD0A8D /* Pods-CHAGOTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHAGOTests.release.xcconfig"; path = "Target Support Files/Pods-CHAGOTests/Pods-CHAGOTests.release.xcconfig"; sourceTree = "<group>"; };
+		53072CB325E7CD9D00EFDA7D /* GoogleAppMeasurement.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GoogleAppMeasurement.xcframework; path = Pods/GoogleAppMeasurement/Frameworks/GoogleAppMeasurement.xcframework; sourceTree = "<group>"; };
+		53261A3227AA109600FB966B /* AppTrackingTransparency.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTrackingTransparency.framework; path = System/Library/Frameworks/AppTrackingTransparency.framework; sourceTree = SDKROOT; };
+		533216E625E7C67900EF910E /* FirebaseAnalytics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FirebaseAnalytics.xcframework; path = Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.xcframework; sourceTree = "<group>"; };
+		5354CFB913A42B2492BA5F85 /* Pods-CHAGO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHAGO.debug.xcconfig"; path = "Target Support Files/Pods-CHAGO/Pods-CHAGO.debug.xcconfig"; sourceTree = "<group>"; };
+		5374463C25CA3350003563EC /* FBLPromises.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FBLPromises.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5374464225CA337A003563EC /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72744CEACBF5E23FB49BE3AD /* Pods_CHAGO_CHAGOUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHAGO_CHAGOUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79F111FD2C060C173DC711C7 /* Pods_CHAGO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHAGO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B6019902BDFE68F00C904D9 /* CHAGO-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CHAGO-Bridging-Header.h"; sourceTree = "<group>"; };
+		7B6019912BDFE69000C904D9 /* Void.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Void.swift; sourceTree = "<group>"; };
+		7B7B92502BDFEBD100974FA2 /* AdBrixRmKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AdBrixRmKit.xcframework; path = Pods/AdBrixRmKit/AdBrixRmKit.xcframework; sourceTree = "<group>"; };
+		7B7B92542BDFEBD600974FA2 /* FirebaseCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9046850C4E117A090A6797C4 /* Pods-CHAGO-CHAGOUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHAGO-CHAGOUITests.release.xcconfig"; path = "Target Support Files/Pods-CHAGO-CHAGOUITests/Pods-CHAGO-CHAGOUITests.release.xcconfig"; sourceTree = "<group>"; };
+		91CC7A3D23CF499400017CAC /* 차고.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "차고.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91CC7A4023CF499400017CAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		91CC7A4123CF499400017CAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		91CC7A4323CF499400017CAC /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		91CC7A4423CF499400017CAC /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		91CC7A4623CF499400017CAC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		91CC7A4723CF499400017CAC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		91CC7A4A23CF499400017CAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91CC7A4C23CF499700017CAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91CC7A4F23CF499700017CAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		91CC7A5123CF499700017CAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91CC7A5223CF499700017CAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		91CC7A5823CF499700017CAC /* CHAGOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CHAGOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91CC7A5C23CF499700017CAC /* CHAGOTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHAGOTests.m; sourceTree = "<group>"; };
+		91CC7A5E23CF499700017CAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91CC7A6323CF499700017CAC /* CHAGOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CHAGOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91CC7A6723CF499700017CAC /* CHAGOUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHAGOUITests.m; sourceTree = "<group>"; };
+		91CC7A6923CF499700017CAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91CC7A7523CF4A2A00017CAC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		91CC7A7723CF4A3900017CAC /* CHAGO.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CHAGO.entitlements; sourceTree = "<group>"; };
+		91CC7A7923CF4B6D00017CAC /* UIView+frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+frame.m"; sourceTree = "<group>"; };
+		91CC7A7A23CF4B6D00017CAC /* UIView+frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+frame.h"; sourceTree = "<group>"; };
+		91CC7A7C23CF4B6D00017CAC /* SharedData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedData.h; sourceTree = "<group>"; };
+		91CC7A7D23CF4B6D00017CAC /* SharedData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharedData.m; sourceTree = "<group>"; };
+		91CC7A8023CF4BDF00017CAC /* KakaoOpenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KakaoOpenSDK.framework; sourceTree = "<group>"; };
+		A8A40924B9BED94BFC3AF599 /* Pods-CHAGO-CHAGOUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHAGO-CHAGOUITests.debug.xcconfig"; path = "Target Support Files/Pods-CHAGO-CHAGOUITests/Pods-CHAGO-CHAGOUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C275D21924383827001E79BB /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		C275D21E24384490001E79BB /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		C275D21F24384490001E79BB /* Constants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		C275D22124384FE4001E79BB /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		C275D22224384FE4001E79BB /* Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		C2CE754B52C105D9DEC35725 /* Pods-CHAGO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHAGO.release.xcconfig"; path = "Target Support Files/Pods-CHAGO/Pods-CHAGO.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91CC7A3A23CF499400017CAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5338C66A26366544004847E4 /* FirebaseAnalytics.xcframework in Frameworks */,
+				5338C6652636653F004847E4 /* GoogleAppMeasurement.xcframework in Frameworks */,
+				7B7B92672BDFF12600974FA2 /* FirebaseCore.framework in Frameworks */,
+				8FCDE9FC244AB0B6008D8A15 /* iAd.framework in Frameworks */,
+				53261A3327AA109600FB966B /* AppTrackingTransparency.framework in Frameworks */,
+				7B7B92622BDFF06D00974FA2 /* Pods_CHAGO.framework in Frameworks */,
+				7B7B925E2BDFEF9D00974FA2 /* FirebaseAnalytics.xcframework in Frameworks */,
+				7B7B92512BDFEBD100974FA2 /* AdBrixRmKit.xcframework in Frameworks */,
+				91CC7A8123CF4BE000017CAC /* KakaoOpenSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91CC7A5523CF499700017CAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B099BA3F9C93768D131B8DD /* Pods_CHAGOTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91CC7A6023CF499700017CAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3763B845A4968A0FB628A0D /* Pods_CHAGO_CHAGOUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02D2F14317CCCED6B40136EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5354CFB913A42B2492BA5F85 /* Pods-CHAGO.debug.xcconfig */,
+				C2CE754B52C105D9DEC35725 /* Pods-CHAGO.release.xcconfig */,
+				A8A40924B9BED94BFC3AF599 /* Pods-CHAGO-CHAGOUITests.debug.xcconfig */,
+				9046850C4E117A090A6797C4 /* Pods-CHAGO-CHAGOUITests.release.xcconfig */,
+				37FDBBE149A9D10DB63E8E46 /* Pods-CHAGOTests.debug.xcconfig */,
+				4BE631E418F90C5F17AD0A8D /* Pods-CHAGOTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		91CC7A3423CF499400017CAC = {
+			isa = PBXGroup;
+			children = (
+				91CC7A3F23CF499400017CAC /* CHAGO */,
+				91CC7A5B23CF499700017CAC /* CHAGOTests */,
+				91CC7A6623CF499700017CAC /* CHAGOUITests */,
+				91CC7A3E23CF499400017CAC /* Products */,
+				02D2F14317CCCED6B40136EA /* Pods */,
+				B0A2D42156DB067B41EAE355 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		91CC7A3E23CF499400017CAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91CC7A3D23CF499400017CAC /* 차고.app */,
+				91CC7A5823CF499700017CAC /* CHAGOTests.xctest */,
+				91CC7A6323CF499700017CAC /* CHAGOUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91CC7A3F23CF499400017CAC /* CHAGO */ = {
+			isa = PBXGroup;
+			children = (
+				91CC7A7823CF4B6D00017CAC /* Common */,
+				91CC7A7B23CF4B6D00017CAC /* utils */,
+				91CC7A7723CF4A3900017CAC /* CHAGO.entitlements */,
+				91CC7A7523CF4A2A00017CAC /* GoogleService-Info.plist */,
+				91CC7A4023CF499400017CAC /* AppDelegate.h */,
+				91CC7A4123CF499400017CAC /* AppDelegate.m */,
+				91CC7A4323CF499400017CAC /* SceneDelegate.h */,
+				91CC7A4423CF499400017CAC /* SceneDelegate.m */,
+				91CC7A4623CF499400017CAC /* ViewController.h */,
+				91CC7A4723CF499400017CAC /* ViewController.m */,
+				91CC7A4923CF499400017CAC /* Main.storyboard */,
+				91CC7A4C23CF499700017CAC /* Assets.xcassets */,
+				91CC7A4E23CF499700017CAC /* LaunchScreen.storyboard */,
+				91CC7A5123CF499700017CAC /* Info.plist */,
+				91CC7A5223CF499700017CAC /* main.m */,
+				7B6019912BDFE69000C904D9 /* Void.swift */,
+				7B6019902BDFE68F00C904D9 /* CHAGO-Bridging-Header.h */,
+			);
+			path = CHAGO;
+			sourceTree = "<group>";
+		};
+		91CC7A5B23CF499700017CAC /* CHAGOTests */ = {
+			isa = PBXGroup;
+			children = (
+				91CC7A5C23CF499700017CAC /* CHAGOTests.m */,
+				91CC7A5E23CF499700017CAC /* Info.plist */,
+			);
+			path = CHAGOTests;
+			sourceTree = "<group>";
+		};
+		91CC7A6623CF499700017CAC /* CHAGOUITests */ = {
+			isa = PBXGroup;
+			children = (
+				91CC7A6723CF499700017CAC /* CHAGOUITests.m */,
+				91CC7A6923CF499700017CAC /* Info.plist */,
+			);
+			path = CHAGOUITests;
+			sourceTree = "<group>";
+		};
+		91CC7A7823CF4B6D00017CAC /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				91CC7A7923CF4B6D00017CAC /* UIView+frame.m */,
+				91CC7A7A23CF4B6D00017CAC /* UIView+frame.h */,
+				C275D21E24384490001E79BB /* Constants.h */,
+				C275D21F24384490001E79BB /* Constants.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		91CC7A7B23CF4B6D00017CAC /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				91CC7A7C23CF4B6D00017CAC /* SharedData.h */,
+				91CC7A7D23CF4B6D00017CAC /* SharedData.m */,
+				C275D22124384FE4001E79BB /* Utils.h */,
+				C275D22224384FE4001E79BB /* Utils.m */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		B0A2D42156DB067B41EAE355 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B7B92542BDFEBD600974FA2 /* FirebaseCore.framework */,
+				7B7B92502BDFEBD100974FA2 /* AdBrixRmKit.xcframework */,
+				53261A3227AA109600FB966B /* AppTrackingTransparency.framework */,
+				53072CB325E7CD9D00EFDA7D /* GoogleAppMeasurement.xcframework */,
+				533216E625E7C67900EF910E /* FirebaseAnalytics.xcframework */,
+				5374464225CA337A003563EC /* FBSDKCoreKit.framework */,
+				5374463C25CA3350003563EC /* FBLPromises.framework */,
+				C275D21924383827001E79BB /* iAd.framework */,
+				91CC7A8023CF4BDF00017CAC /* KakaoOpenSDK.framework */,
+				79F111FD2C060C173DC711C7 /* Pods_CHAGO.framework */,
+				72744CEACBF5E23FB49BE3AD /* Pods_CHAGO_CHAGOUITests.framework */,
+				33E0E190183C8073D8505435 /* Pods_CHAGOTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91CC7A3C23CF499400017CAC /* CHAGO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91CC7A6C23CF499700017CAC /* Build configuration list for PBXNativeTarget "CHAGO" */;
+			buildPhases = (
+				F56CA5821C9F22FD9B4592CA /* [CP] Check Pods Manifest.lock */,
+				91CC7A3923CF499400017CAC /* Sources */,
+				91CC7A3A23CF499400017CAC /* Frameworks */,
+				91CC7A3B23CF499400017CAC /* Resources */,
+				C054217CB6FCBFF19973D4CB /* [CP] Embed Pods Frameworks */,
+				7B7B92642BDFF06D00974FA2 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CHAGO;
+			productName = CHAGO;
+			productReference = 91CC7A3D23CF499400017CAC /* 차고.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91CC7A5723CF499700017CAC /* CHAGOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91CC7A6F23CF499700017CAC /* Build configuration list for PBXNativeTarget "CHAGOTests" */;
+			buildPhases = (
+				5641CDF5078E62920A06AD76 /* [CP] Check Pods Manifest.lock */,
+				91CC7A5423CF499700017CAC /* Sources */,
+				91CC7A5523CF499700017CAC /* Frameworks */,
+				91CC7A5623CF499700017CAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91CC7A5A23CF499700017CAC /* PBXTargetDependency */,
+			);
+			name = CHAGOTests;
+			productName = CHAGOTests;
+			productReference = 91CC7A5823CF499700017CAC /* CHAGOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		91CC7A6223CF499700017CAC /* CHAGOUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91CC7A7223CF499700017CAC /* Build configuration list for PBXNativeTarget "CHAGOUITests" */;
+			buildPhases = (
+				0743B89809AC746FFE10E151 /* [CP] Check Pods Manifest.lock */,
+				91CC7A5F23CF499700017CAC /* Sources */,
+				91CC7A6023CF499700017CAC /* Frameworks */,
+				91CC7A6123CF499700017CAC /* Resources */,
+				DAA5BDCC783E5287D61D8DD4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91CC7A6523CF499700017CAC /* PBXTargetDependency */,
+			);
+			name = CHAGOUITests;
+			productName = CHAGOUITests;
+			productReference = 91CC7A6323CF499700017CAC /* CHAGOUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91CC7A3523CF499400017CAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1530;
+				ORGANIZATIONNAME = Bizwizsystem;
+				TargetAttributes = {
+					91CC7A3C23CF499400017CAC = {
+						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1530;
+					};
+					91CC7A5723CF499700017CAC = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 91CC7A3C23CF499400017CAC;
+					};
+					91CC7A6223CF499700017CAC = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 91CC7A3C23CF499400017CAC;
+					};
+				};
+			};
+			buildConfigurationList = 91CC7A3823CF499400017CAC /* Build configuration list for PBXProject "CHAGO" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91CC7A3423CF499400017CAC;
+			productRefGroup = 91CC7A3E23CF499400017CAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91CC7A3C23CF499400017CAC /* CHAGO */,
+				91CC7A5723CF499700017CAC /* CHAGOTests */,
+				91CC7A6223CF499700017CAC /* CHAGOUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91CC7A3B23CF499400017CAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91CC7A5023CF499700017CAC /* LaunchScreen.storyboard in Resources */,
+				91CC7A7623CF4A2A00017CAC /* GoogleService-Info.plist in Resources */,
+				91CC7A4D23CF499700017CAC /* Assets.xcassets in Resources */,
+				91CC7A4B23CF499400017CAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91CC7A5623CF499700017CAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91CC7A6123CF499700017CAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0743B89809AC746FFE10E151 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CHAGO-CHAGOUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5641CDF5078E62920A06AD76 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CHAGOTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C054217CB6FCBFF19973D4CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CHAGO/Pods-CHAGO-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CHAGO/Pods-CHAGO-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CHAGO/Pods-CHAGO-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAA5BDCC783E5287D61D8DD4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CHAGO-CHAGOUITests/Pods-CHAGO-CHAGOUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CHAGO-CHAGOUITests/Pods-CHAGO-CHAGOUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CHAGO-CHAGOUITests/Pods-CHAGO-CHAGOUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F56CA5821C9F22FD9B4592CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CHAGO-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91CC7A3923CF499400017CAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91CC7A4823CF499400017CAC /* ViewController.m in Sources */,
+				91CC7A4223CF499400017CAC /* AppDelegate.m in Sources */,
+				C275D22024384490001E79BB /* Constants.m in Sources */,
+				C275D22324384FE4001E79BB /* Utils.m in Sources */,
+				91CC7A5323CF499700017CAC /* main.m in Sources */,
+				7B6019922BDFE69000C904D9 /* Void.swift in Sources */,
+				91CC7A7E23CF4B6D00017CAC /* UIView+frame.m in Sources */,
+				91CC7A7F23CF4B6D00017CAC /* SharedData.m in Sources */,
+				91CC7A4523CF499400017CAC /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91CC7A5423CF499700017CAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91CC7A5D23CF499700017CAC /* CHAGOTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91CC7A5F23CF499700017CAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91CC7A6823CF499700017CAC /* CHAGOUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91CC7A5A23CF499700017CAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91CC7A3C23CF499400017CAC /* CHAGO */;
+			targetProxy = 91CC7A5923CF499700017CAC /* PBXContainerItemProxy */;
+		};
+		91CC7A6523CF499700017CAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91CC7A3C23CF499400017CAC /* CHAGO */;
+			targetProxy = 91CC7A6423CF499700017CAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		91CC7A4923CF499400017CAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91CC7A4A23CF499400017CAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		91CC7A4E23CF499700017CAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91CC7A4F23CF499700017CAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91CC7A6A23CF499700017CAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		91CC7A6B23CF499700017CAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91CC7A6D23CF499700017CAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5354CFB913A42B2492BA5F85 /* Pods-CHAGO.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = CHAGO/CHAGO.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 17;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)/**",
+					"$(PROJECT_DIR)/**",
+				);
+				INFOPLIST_FILE = CHAGO/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "";
+				"LIBRARY_SEARCH_PATHS[arch=*]" = "$(inherited)";
+				MARKETING_VERSION = 1.6;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.chagodealer.user;
+				PRODUCT_NAME = "차고";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "CHAGO/CHAGO-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		91CC7A6E23CF499700017CAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2CE754B52C105D9DEC35725 /* Pods-CHAGO.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = CHAGO/CHAGO.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 17;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = CHAGO/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "";
+				"LIBRARY_SEARCH_PATHS[arch=*]" = "$(inherited)";
+				MARKETING_VERSION = 1.6;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.chagodealer.user;
+				PRODUCT_NAME = "차고";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "CHAGO/CHAGO-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		91CC7A7023CF499700017CAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37FDBBE149A9D10DB63E8E46 /* Pods-CHAGOTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2K9Y9G8Y98;
+				INFOPLIST_FILE = CHAGOTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.chagodealer.user.CHAGOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CHAGO.app/CHAGO";
+			};
+			name = Debug;
+		};
+		91CC7A7123CF499700017CAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BE631E418F90C5F17AD0A8D /* Pods-CHAGOTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2K9Y9G8Y98;
+				INFOPLIST_FILE = CHAGOTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.chagodealer.user.CHAGOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CHAGO.app/CHAGO";
+			};
+			name = Release;
+		};
+		91CC7A7323CF499700017CAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8A40924B9BED94BFC3AF599 /* Pods-CHAGO-CHAGOUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2K9Y9G8Y98;
+				INFOPLIST_FILE = CHAGOUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.chagodealer.user.CHAGOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CHAGO;
+			};
+			name = Debug;
+		};
+		91CC7A7423CF499700017CAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9046850C4E117A090A6797C4 /* Pods-CHAGO-CHAGOUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2K9Y9G8Y98;
+				INFOPLIST_FILE = CHAGOUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.chagodealer.user.CHAGOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CHAGO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91CC7A3823CF499400017CAC /* Build configuration list for PBXProject "CHAGO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91CC7A6A23CF499700017CAC /* Debug */,
+				91CC7A6B23CF499700017CAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91CC7A6C23CF499700017CAC /* Build configuration list for PBXNativeTarget "CHAGO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91CC7A6D23CF499700017CAC /* Debug */,
+				91CC7A6E23CF499700017CAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91CC7A6F23CF499700017CAC /* Build configuration list for PBXNativeTarget "CHAGOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91CC7A7023CF499700017CAC /* Debug */,
+				91CC7A7123CF499700017CAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91CC7A7223CF499700017CAC /* Build configuration list for PBXNativeTarget "CHAGOUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91CC7A7323CF499700017CAC /* Debug */,
+				91CC7A7423CF499700017CAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91CC7A3523CF499400017CAC /* Project object */;
+}
